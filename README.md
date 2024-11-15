@@ -5,11 +5,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Web Workers](https://img.shields.io/badge/Web%20Workers-Off--Main--Thread-orange?style=for-the-badge)
 
-<!-- 
-TIP: Replace the link below with a screen recording (GIF) of your app 
-showing smooth scrolling and sorting with 100k rows. 
--->
-![Demo GIF](https://via.placeholder.com/800x400?text=Please+Upload+Screen+Recording+GIF+Here)
+
+![High Frequency Grid Demo](/images/demo-recording.gif)
 
 > **A proof-of-concept for handling massive datasets in the browser without blocking the main thread.**
 > 
