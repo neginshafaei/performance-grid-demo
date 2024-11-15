@@ -8,6 +8,8 @@
 
 ![High Frequency Grid Demo](./public/images/demo-recording.gif)
 
+You can also check it out [here](https://neginshafaei.github.io/performance-grid-demo/)
+
 > **A proof-of-concept for handling massive datasets in the browser without blocking the main thread.**
 > 
 > This project demonstrates how to render and manipulate **100,000+ live data points** while maintaining a steady **60 FPS**, utilizing Web Workers for heavy computations and Windowing (Virtualization) for DOM optimization.
