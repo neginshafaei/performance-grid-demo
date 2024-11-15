@@ -6,7 +6,7 @@
 ![Web Workers](https://img.shields.io/badge/Web%20Workers-Off--Main--Thread-orange?style=for-the-badge)
 
 
-![High Frequency Grid Demo](/images/demo-recording.gif)
+![High Frequency Grid Demo](./public/images/demo-recording.gif)
 
 > **A proof-of-concept for handling massive datasets in the browser without blocking the main thread.**
 > 
