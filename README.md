@@ -33,7 +33,7 @@ graph TD
     
     Worker -->|5. Return Result| UI
     UI -->|6. Render Only Visible Items| Virtual[TanStack Virtualizer]
-
+```
 ## 🚀 Key Features
 
 *   **Zero UI Blocking:** All heavy lifting (generating data, sorting, filtering) happens in a dedicated `Web Worker`. The UI remains responsive (clickable/scrollable) even during complex calculations.
@@ -64,7 +64,7 @@ A feature-based architecture designed for scalability (no nested `src` folder, f
 ├── lib/
 │   └── utils.ts
 └── tailwind.config.ts
-
+```
 ## 🧠 Technical Deep Dive
 
 ### 1. The Web Worker Pattern
@@ -80,7 +80,7 @@ self.onmessage = (e) => {
     self.postMessage({ type: 'DATA_UPDATED', payload: sorted });
   }
 };
-
+```
 
 ### 2. React Compiler & Virtualization
 Since this project uses **React 19**, the compiler automatically memoizes components. However, strictly mutable libraries like `TanStack Virtual` (which manipulate refs directly for scroll performance) are intentionally skipped by the compiler to prevent stale UI states.
@@ -94,7 +94,7 @@ First, run the development server:
 ```bash
 npm install
 npm run dev
-
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser.
 
