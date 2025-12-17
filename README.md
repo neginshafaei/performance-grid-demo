@@ -1,6 +1,6 @@
 # ⚡ High-Frequency Data Grid (100k+ Rows)
 
-![Next.js 16](https://img.shields.io/badge/Next.js%16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Next.js 16](img.shields.io)
 ![React 19](https://img.shields.io/badge/React%2019%20(RC)-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Web Workers](https://img.shields.io/badge/Web%20Workers-Off--Main--Thread-orange?style=for-the-badge)
@@ -38,21 +38,21 @@ graph TD
 
 *   **Zero UI Blocking:** All heavy lifting (generating data, sorting, filtering) happens in a dedicated `Web Worker`. The UI remains responsive (clickable/scrollable) even during complex calculations.
 *   **Virtualization:** Uses `@tanstack/react-virtual` to render only the DOM nodes currently in the viewport. This keeps memory usage low, regardless of whether there are 1,000 or 1,000,000 rows.
-*   **React 19 & Next.js 15:** Built on the bleeding edge, utilizing the new **React Compiler** for automatic optimization.
+*   **React 19 & Next.js 16:** Built on the bleeding edge, utilizing the new **React Compiler** for automatic optimization.
 *   **Typed Web Workers:** Full TypeScript support for worker messages (no `any` types), ensuring type safety across the thread boundary.
 
 ## 🛠 Tech Stack & Decisions
 
 | Technology | Purpose | Why? |
 | :--- | :--- | :--- |
-| **Next.js 15 (App Router)** | Framework | Leveraging the latest SSR and React Server Components features. |
+| **Next.js 16 (App Router)** | Framework | Leveraging the latest SSR and React Server Components features. |
 | **Web Workers** | Parallelism | To offload CPU-intensive tasks from the main thread to prevent UI jank. |
 | **TanStack Virtual** | Windowing | To render massive lists efficiently by maintaining a constant number of DOM elements. |
 | **Tailwind CSS** | Styling | For rapid, utility-first styling with zero runtime overhead.
 
 ## 📂 Project Structure
 
-A feature-based architecture designed for scalability (no nested `src` folder, following Next.js 15 recommendations).
+A feature-based architecture designed for scalability (no nested `src` folder, following Next.js 16 recommendations).
 
 ```text
 ├── app/
