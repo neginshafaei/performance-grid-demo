@@ -1,6 +1,6 @@
 # ⚡ High-Frequency Data Grid (100k+ Rows)
 
-![Next.js 16](img.shields.io)
+![Next.js 16](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React 19](https://img.shields.io/badge/React%2019%20(RC)-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Web Workers](https://img.shields.io/badge/Web%20Workers-Off--Main--Thread-orange?style=for-the-badge)
